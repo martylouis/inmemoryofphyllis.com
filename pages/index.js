@@ -44,7 +44,8 @@ export default function Home() {
                 <p className="sm:text-lg lg:text-lg">Obituary Card</p>
                 <p className="flex-shrink-0 sm:pl-8">
                   <a
-                    href="#"
+                    href="https://www.dropbox.com/s/iys5vvsxst8euon/2021-08-23--pHartman--obituaryCard.pdf?dl=1"
+                    download="true"
                     className="inline-flex px-4 py-2 pb-1 text-sm tracking-[2px] uppercase border-2 border-opacity-30 hover:border-opacity-100 transition-all"
                   >
                     Download
