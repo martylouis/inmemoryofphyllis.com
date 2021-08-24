@@ -1,4 +1,13 @@
 {
+  "name": "inmemoryofphyllis-com",
+  "version": "1.0.0",
+  "description": "Obituary website",
+  "author": "Marty Thierry <marty@martylouis.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martylouis/inmemoryofphyllis.com.git"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
