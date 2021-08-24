@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="relative min-h-screen">
-        <div className="relative w-full h-[56vh] md:absolute md:inset-y-0 md:right-0 md:w-2/5 md:h-screen">
+        <div className="relative w-full h-[56vh] md:absolute md:inset-y-0 md:right-0 md:w-1/2 md:h-screen">
           <Image
             className="absolute inset-0 z-10 object-cover object-top w-full h-full"
             src="/phartman--01.jpg"
@@ -19,7 +19,7 @@ export default function Home() {
           />
         </div>
         <div className="relative flex items-center justify-center md:static md:justify-start w-full mx-auto text-center bg-[#1e2829] md:h-screen">
-          <div className="relative z-10 px-4 py-24 overflow-hidden md:w-3/5 sm:px-8">
+          <div className="relative z-10 px-4 py-24 overflow-hidden md:w-1/2 sm:px-8">
             <header className="text-center">
               <h1>
                 <span className="block tracking-[4px] uppercase lg:text-xl">
@@ -39,7 +39,7 @@ export default function Home() {
                 alt="floral divider"
               />
             </div>
-            <div className="max-w-md p-4 mx-auto mt-2 space-y-6 ">
+            <div className="max-w-md p-4 mx-auto mt-2 space-y-6">
               <div className="space-y-2 sm:space-y-0 sm:flex sm:items-center sm:justify-between">
                 <p className="sm:text-lg lg:text-lg">Obituary Card</p>
                 <p className="flex-shrink-0 sm:pl-8">
@@ -69,7 +69,7 @@ export default function Home() {
           </div>
           <div className="absolute inset-0 w-full h-full overflow-hidden">
             <span
-              className="h-[150px] w-[159px] sm:h-[250px] sm:w-[266px] absolute top-0 left-0 opacity-25 -mt-8 -ml-12"
+              className="h-[150px] w-[159px] sm:h-[250px] sm:w-[266px] absolute top-0 left-0 opacity-25 -mt-8 -ml-6"
               style={{
                 backgroundImage: "url(./floral-1@2x.png)",
                 backgroundSize: "cover",
@@ -78,7 +78,7 @@ export default function Home() {
               }}
             ></span>
             <span
-              className="h-[150px] w-[196px] sm:h-[250px] sm:w-[328px] absolute top-0 right-0 md:right-[40%] opacity-25 -mt-12 -mr-16"
+              className="h-[150px] w-[196px] sm:h-[250px] sm:w-[328px] absolute top-0 right-0 md:right-[50%] opacity-25 -mt-12 -mr-16"
               style={{
                 backgroundImage: "url(./floral-2@2x.png)",
                 backgroundSize: "cover",
@@ -87,7 +87,7 @@ export default function Home() {
               }}
             ></span>
             <span
-              className="h-[150px] w-[159px] sm:h-[250px] sm:w-[266px] absolute bottom-0 right-0 md:right-[40%] opacity-25 -mb-8 -mr-12"
+              className="h-[150px] w-[159px] sm:h-[250px] sm:w-[266px] absolute bottom-0 right-0 md:right-[50%] opacity-25 -mb-8 -mr-6"
               style={{
                 backgroundImage: "url(./floral-1@2x.png)",
                 backgroundSize: "cover",
