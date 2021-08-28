@@ -1,3 +1,4 @@
 html {
   @apply antialiased bg-[#1e2829];
+  scroll-behavior: smooth;
 }
